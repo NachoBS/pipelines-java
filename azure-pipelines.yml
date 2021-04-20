@@ -8,25 +8,17 @@ trigger:
 
 strategy:
   matrix:
-    linux:
+    jdk10_linux:
       imageName: "ubuntu-16.04"
-    mac:
-      imageName: "macos-10.14"
-    windows:
+      jdk_version: "1.10"
+    jdk11_windows:
       imageName: "vs2017-win2016"
-  maxParallel: 3
+      jdk_version: "1.11"
+  maxParallel: 2
 
 pool:
   vmImage: $(imageName)
 
-strategy:
-  matrix:
-    jdk10:
-      jdk_version: "1.10"
-    jdk11:
-      jdk_version: "1.11"
-  maxParallel: 2
-  
 steps:
 - task: Maven@3
   inputs:
