@@ -1,5 +1,7 @@
 [![Build Status](https://dev.azure.com/jignaciobs/PL-training-prj/_apis/build/status/NachoBS.pipelines-java?branchName=master)](https://dev.azure.com/jignaciobs/PL-training-prj/_build/latest?definitionId=2&branchName=master)
 
+Some update
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
